@@ -169,7 +169,7 @@ echo '<script type="application/javascript"> const targetValueIVA =' . $totalIVA
                                     </div>
                                 </form><hr>';
                                     $nuevoDetalleFactura.= '<hr>';
-                                    $nuevoDetalleFactura.= $invoice[0]; // Aquí se usa $invoice[0] en lugar de $productos para mantener tu lógica original
+                                    $nuevoDetalleFactura.= $invoice[0];
                                     $nuevoDetalleFactura .= '<form>
                                     <div class="row">
                                     <div class="col-md-4 mb-2">
