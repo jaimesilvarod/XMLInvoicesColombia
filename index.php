@@ -21,7 +21,6 @@ foreach (glob($directory . "/*.xml") as $file) {
         $namespaces = $xml->getNamespaces(true);
         $namespacesFactura = $xmlFactura->getNamespaces(true);
 
-        // Register namespaces to access attributes
         foreach ($namespaces as $prefix => $namespace) {
             $xml->registerXPathNamespace($prefix, $namespace);
         }
