@@ -1,0 +1,98 @@
+@import url('font/Roboto-Regular.ttf');
+
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: Roboto, sans-serif;
+    background-color: #10092c;
+    color: magenta;
+    }
+
+.translucent{
+    background-color: transparent!important;
+}
+
+hr.lineaSuperior{
+    border-color: darkmagenta;
+    border-width: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-bottom-style: ridge;
+}
+
+h1{
+    font-size: 5rem;
+    -webkit-text-stroke: 4px white!important;
+    text-shadow: #fe64fe 0px 0 130px!important;
+}
+
+h2{
+    font-size: 3rem;
+    -webkit-text-stroke: 2px #ffc8ff !important;
+}
+
+h3{
+    padding: 10px 0px!important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-shadow: #fe64fe 0px 0 130px;
+    padding: 50px 0px;
+    -webkit-text-stroke: 0.5px white;
+    font-weight: 800;
+    color:darkmagenta;
+}
+
+#number-display{
+    font-size: 6rem;
+    text-shadow: #fe64fe 0px 0 130px;
+    padding: 55px 0px;
+    -webkit-text-stroke: 4px white;
+    font-weight: 800;
+    color:darkmagenta;
+    /*padding: 50px;*/
+}
+
+#number-iva{
+    font-size: 4rem;
+    text-shadow: #fe64fe 0px 0 130px;
+    padding: 55px 0px;
+    -webkit-text-stroke: 4px white;
+    font-weight: 800;
+    color:darkmagenta;
+    /*padding: 50px;*/
+}
+
+.cuadrodeDato{
+    border: 6px dotted #fe64fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    padding: 20px;
+    margin: 50px 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.list-group {
+    --bs-list-group-bg: transparent;
+    --bs-list-group-active-bg: darkmagenta;
+    --bs-list-group-active-border-color: white;
+    --bs-list-group-color: darkmagenta;
+}
+
+.tab-pane{
+    padding-left: 40px;
+}
+
+.controlesFinales{
+    color: darkmagenta;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+section{
+    padding-bottom: 100px;
+}
